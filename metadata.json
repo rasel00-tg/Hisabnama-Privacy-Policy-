@@ -1,0 +1,6 @@
+{
+  "name": "HISABNAMA - Privacy Policy",
+  "description": "Official Privacy Policy website for HISABNAMA application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
