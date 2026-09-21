@@ -8,6 +8,7 @@ import {
   Bell, 
   UserCheck, 
   Sparkles,
+  Database,
   ChevronRight
 } from 'lucide-react';
 import { APP_FEATURES } from '../data/policyContent';
@@ -25,6 +26,8 @@ const iconMap: Record<string, React.ReactNode> = {
   Percent: <Percent className="w-5 h-5 text-amber-600 dark:text-amber-400" />,
   Calculator: <Calculator className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />,
   Bell: <Bell className="w-5 h-5 text-rose-600 dark:text-rose-400" />,
+  Sparkles: <Sparkles className="w-5 h-5 text-purple-600 dark:text-purple-400" />,
+  Database: <Database className="w-5 h-5 text-sky-600 dark:text-sky-400" />,
 };
 
 export const FeatureGrid: React.FC<FeatureGridProps> = ({ language }) => {
